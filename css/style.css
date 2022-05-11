@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+:root {
+    --main-color: #151313;
+    --second-color: #F5F5F5;
+    --text-color: #FFFAFA;
+    --second-text-color: #00002c;
+    --section-color: #FFF8DC;
+    --section-paddin: 100px;
+}
+
+/************************ Start Nav Bar *************************/
+.dropdown-menu {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.dropdown-menu li {
+    padding: 10px 0 !important;
+}
+
+.dropdown-item {
+    color: white !important;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.dropdown-item:hover {
+    background-color: var(--main-color) !important;
+    border-radius: 6px;
+}
+
+/************************ Start Header *************************/
+/* header {
+    height: 100vh;
+    background-image: url('/image/Pyramids2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: var(--section-paddin) 0;
+}
+header .content .boxes{margin-top: 300px;} */
+
+/************************ Start Sider *************************/
+.carousel {
+    height: 100vh !important;
+}
+
+.carousel-item img {
+    height: 100vh !important;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    height: fit-content !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel .left {
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel .right {
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel .left i,
+.carousel .right i {
+    color: white !important;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #9fbd51 !important;
+}
+
+/************************ Start Welcome *************************/
+section.welcome {
+    padding: var(--section-paddin) 0;
+}
+
+/************************ Start Cairo Tours *************************/
+section.cairo-tours .row .box {
+    background-color: rgb(218, 212, 212);
+    border-radius: 20px;
+    border: 5px solid var(--second-color);
+}
+
+section.cairo-tours .row .box img {
+    width: 100% !important;
+    border-radius: 20px;
+}
+
+section.cairo-tours .row .box .cont {}
+
+section.cairo-tours .row .box .cont .from {
+    line-height: 0px;
+}
+
+section.cairo-tours .row .box .cont .from h1 {
+    color: #9fbd51;
+}
+
+section.cairo-tours .row .box .cont span {
+    width: 2px;
+    height: 60px;
+    background-color: #151313;
+    opacity: .5;
+}
