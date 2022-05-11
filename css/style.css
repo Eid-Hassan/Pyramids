@@ -47,7 +47,9 @@ body {
     background-color: var(--main-color) !important;
     border-radius: 6px;
 }
-
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
 /************************ Start Header *************************/
 /* header {
     height: 100vh;
